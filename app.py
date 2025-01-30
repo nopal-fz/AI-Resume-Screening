@@ -16,7 +16,7 @@ from langchain_core.runnables import RunnablePassthrough
 
 # fungsi untuk membaca daftar pekerjaan dari JSON
 def load_available_jobs():
-    with open('data\\available_jobs.json', 'r') as file:
+    with open('data/available_jobs.json', 'r') as file:
         jobs = json.load(file)
     return jobs
 
