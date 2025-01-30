@@ -1,0 +1,14 @@
+streamlit
+pdfplumber
+python-docx
+sentence-transformers
+scikit-learn
+pandas
+numpy
+faiss-cpu
+langchain
+langchain-ollama
+PyMuPDF
+PyPDF2
+streamlit-extras
+streamlit-pdf-viewer

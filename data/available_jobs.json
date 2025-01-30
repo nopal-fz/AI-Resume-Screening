@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Data Scientist",
+        "description": "Experience in Python, Machine Learning, Data Analysis"
+    },
+    {
+        "title": "Data Analyst",
+        "description": "Experience in Python, SQL, Data Analysis"
+    },
+    {
+        "title": "Software Engineer",
+        "description": "Proficiency in Python, Java, Web Development"
+    },
+    {
+        "title": "Machine Learning Engineer",
+        "description": "Experience in Python, Machine Learning Algorithms, TensorFlow, PyTorch"
+    },
+    {
+        "title": "Business Intelligence Analyst",
+        "description": "Experience in SQL, Data Visualization, BI Tools like Power BI, Tableau"
+    },
+    {
+        "title": "DevOps Engineer",
+        "description": "Experience in Cloud Computing, Kubernetes, Docker, CI/CD pipelines"
+    },
+    {
+        "title": "Product Manager",
+        "description": "Experience in Agile methodologies, Product Development, Market Research"
+    },
+    {
+        "title": "Web Developer",
+        "description": "Proficiency in HTML, CSS, JavaScript, React, Node.js"
+    },
+    {
+        "title": "Database Administrator",
+        "description": "Experience in SQL, Database Management, Performance Tuning, Security"
+    },
+    {
+        "title": "Cybersecurity Specialist",
+        "description": "Experience in Network Security, Penetration Testing, Firewalls, Security Audits"
+    },
+    {
+        "title": "Cloud Architect",
+        "description": "Experience in AWS, Azure, Cloud Architecture, Infrastructure as Code"
+    },
+    {
+        "title": "UI/UX Designer",
+        "description": "Experience in Adobe XD, Figma, Wireframing, User Testing"
+    },
+    {
+        "title": "Full Stack Developer",
+        "description": "Proficiency in Front-end (React, Angular) and Back-end (Node.js, Express) development"
+    },
+    {
+        "title": "Quality Assurance Engineer",
+        "description": "Experience in Automation Testing, Manual Testing, Selenium, JUnit"
+    },
+    {
+        "title": "Marketing Analyst",
+        "description": "Experience in Digital Marketing, SEO, Data Analysis, Google Analytics"
+    }
+]
