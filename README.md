@@ -1,15 +1,15 @@
 # Smart HR: CV Screening and Candidate Fit
 
-🚀 **Smart HR** adalah aplikasi berbasis **Streamlit** yang membantu tim HR dalam proses **screening CV** dan mencocokkan kandidat dengan pekerjaan yang tersedia menggunakan **AI & NLP**. Aplikasi ini juga menyediakan fitur **chatbot interaktif** untuk menjawab pertanyaan tentang isi CV kandidat.
+🚀 **Smart HR** is a **Streamlit** based application that helps HR teams in the process of **CV screening** and matching candidates with available jobs using **AI & NLP**. This application also provides an **interactive chatbot** feature to answer questions about the contents of the candidate's CV.
 
-## ✨ Fitur Utama
-- **📄 CV Parsing**: Ekstraksi teks otomatis dari file PDF.
-- **🔍 Gap Analysis**: Analisis kesenjangan keterampilan antara kandidat dan deskripsi pekerjaan.
-- **🤖 AI Chatbot**: Berinteraksi dengan CV menggunakan model **Ollama (Mistral LLM)**.
-- **📌 Job Matching**: Mencocokkan kandidat dengan pekerjaan terbaik berdasarkan skill dan pengalaman.
-- **🔎 Semantic Search**: Menggunakan **FAISS** untuk pencarian informasi dari CV kandidat.
+## ✨ Key Features
+- **📄 CV Parsing**: Automatic text extraction from PDF files.
+- **🔍 Gap Analysis**: Analyze the skill gap between candidates and job descriptions.
+- **🤖 AI Chatbot**: Interact with CVs using the **Ollama (Mistral LLM)** model.
+- **📌 Job Matching**: Match candidates with the best jobs based on skills and experience.
+- **🔎 Semantic Search**: Uses **FAISS** to search for information from candidate CVs.
 
-## 📦 Teknologi yang Digunakan
+## 📦 Technologies Used
 - **Python**
 - **Streamlit**
 - **FAISS (Facebook AI Similarity Search)**
@@ -18,7 +18,7 @@
 - **PyPDF2**
 - **NumPy**
 
-## 🚀 Instalasi dan Menjalankan Aplikasi
+## 🚀 Installing and Running the Application
 ### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/username/smart-hr-cv-screening.git
@@ -26,44 +26,45 @@ cd smart-hr-cv-screening
 ```
 
 ### 2️⃣ Install Dependencies
-Disarankan menggunakan virtual environment:
+It is recommended to use a virtual environment:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Jalankan Aplikasi
+### 3️⃣ Run the Application
 ```bash
 streamlit run app.py
 ```
 
-## 📁 Struktur Direktori
+## 📁 Structure Directory
 ```
 📂 smart-hr-cv-screening
-│── 📂 data                   # Data JSON untuk daftar pekerjaan
-│── 📂 models                 # Model AI untuk analisis gap & matching
-│── 📂 utils                  # Utility functions untuk preprocessing teks & embedding
-│── 📄 app.py                 # Main Streamlit app
-│── 📄 requirements.txt       # Dependencies
-│── 📄 README.md              # Dokumentasi proyek
+│── 📂 data # JSON data for job listings
+│── 📂 models # AI models for gap analysis & matching
+│── 📂 utils # Utility functions for text preprocessing & embedding
+│── 📄 app.py # Main Streamlit app
+│── 📄 requirements.txt # Dependencies
+│── 📄 README.md # Project documentation
 ```
 
-## 🤖 Cara Menggunakan AI Chatbot
-Setelah **CV diunggah**, pengguna dapat **bertanya tentang isi CV** dengan beberapa contoh pertanyaan berikut:
-- "Siapa nama kandidat di CV ini?"
-- "Apa posisi terakhir yang dipegang oleh kandidat?"
-- "Berapa tahun pengalaman kerja kandidat?"
-- "Apakah kandidat memiliki pengalaman dalam Python dan Machine Learning?"
+## 🤖 How to Use AI Chatbot
+After **CV is uploaded**, users can **ask about the CV** with some sample questions:
+- "What is the candidate's name on this CV?"
+- "What was the last position held by the candidate?"
+- "How many years of work experience does the candidate have?"
 
-## 💡 Catatan
-- Pastikan **Ollama LLM (Mistral)** sudah berjalan secara lokal.
-- Gunakan **Streamlit Cloud** atau **Docker** untuk deployment lebih fleksibel.
+- "Does the candidate have experience in Python and Machine Learning?"
 
-## 🏆 Kontribusi
-Pull request selalu diterima! Jika ingin berkontribusi, silakan fork proyek ini dan buat **PR**.
+## 💡 Note
+- Make sure **Ollama LLM (Mistral)** is running locally.
+- Use **Streamlit Cloud** or **Docker** for more flexible deployment.
 
-## 📞 Kontak
-👤 **Naufal Faiz**  
+## 🏆 Contribution
+Pull requests are always welcome! If you want to contribute, please fork this project and create a **PR**.
+
+## 📞 Contact
+👤 **Naufal Faiz**
 🔗 [LinkedIn](www.linkedin.com/in/naufal-faiz-nugraha-867534292)
 
 ---
-🚀 *Smart HR – Membantu HR dalam menemukan kandidat terbaik dengan AI!*
+🚀 *Smart HR – Helping HR find the best candidates with AI!*
